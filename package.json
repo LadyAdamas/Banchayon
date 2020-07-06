@@ -1,0 +1,16 @@
+{
+  "name": "banchayon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Arisroung Sutthinaksombat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^14.5.0",
+    "nodemon": "^2.0.4"
+  }
+}
