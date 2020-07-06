@@ -5,14 +5,14 @@ var path = require('path');
 
 app.use(express.static('public'));
 
-app.set ('view engine' , 'html');
+//app.set ('view engine' , 'html');
 
 //app.get('/', function(req,res) {
 //    res.send('Hello World')
 //})
 
 app.get('/', function(req,res) {
-    res.sendFile(path.join(__dirname+'/public/หน้าหลัก'));
+    res.sendFile(path.join(__dirname+'/public/หน้าหลัก.html'));
 })
 
 app.get('/home', function(req,res) {
