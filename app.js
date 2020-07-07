@@ -24,11 +24,15 @@ app.get('/gallery', (req,res) => {
 })
 
 app.get('/contact', (req,res) => {
-    res.sendFile(path.join(__dirname+'/public/ช่่องทางการติดต่อ'));
+    res.sendFile(path.join(__dirname+'/public/ช่องทางการติดต่อ'));
 })
 
 app.get('/map', (req,res) => {
     res.sendFile(path.join(__dirname+'/public/แผนที่'));
+})
+
+app.get('/logo', (req,res) => {
+    res.sendFile(path.join(__dirname+'/public/บัญชา/logo2.png'));
 })
 
 app.use(function(req, res, next) {
