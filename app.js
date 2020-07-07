@@ -32,7 +32,7 @@ app.get('/map', (req,res) => {
 })
 
 app.get('/logo', (req,res) => {
-    res.sendFile(path.join(__dirname+'/public/บัญชา/logo2.png'));
+    res.sendFile(path.join(__dirname+'/public/logo2.png'));
 })
 
 app.use(function(req, res, next) {
